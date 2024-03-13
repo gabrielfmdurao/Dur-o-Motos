@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="styles-cadastro.css">
+</head>
+<body>
+    <header>
+        <h1>Durão Motos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Motos</a>
+                    <ul>
+                        <li><a href="#">Esportivas</a></li>
+                        <li><a href="#">Custom</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Acessórios</a>
+                    <ul>
+                        <li><a href="#">Capacetes</a></li>
+                        <li><a href="#">Luvas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Serviços</a>
+                    <ul>
+                        <li><a href="#">Manutenção</a></li>
+                        <li><a href="#">Reparos</a></li>
+                    </ul>
+                </li>
+                <li><a href="cadastro.html">Cadastro de Clientes</a>
+                </li>
+                <li><a href="#">Sobre</a>
+                    <ul>
+                        <li><a href="#">Missão</a></li>
+                        <li><a href="#">Equipe</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Cadastro de Cliente</h1>
+        <form action="#" method="post" id="cadastro-form">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="tel" id="telefone" name="telefone" required><br>
+            <label for="endereco">Endereço:</label><br>
+            <input type="text" id="endereco" name="endereco" required><br>
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade" required><br>
+            <label for="estado">Estado:</label><br>
+            <input type="text" id="estado" name="estado" required><br>
+            <label for="cep">CEP:</label><br>
+            <input type="text" id="cep" name="cep" required><br><br>
+            <button type="submit" class="enviar-btn">Enviar</button>
+            <input type="reset" value="Limpar" class="limpar-btn">
+        </form>
+    </div>
+</body>
+</html>

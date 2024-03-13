@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+
+body {
+    background-color: #cccccc;
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #000601;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 18px;
+    color: #666666;
+}
+
+.container form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.container form input[type="text"],
+.container form input[type="email"],
+.container form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.enviar-btn {
+    font-family: 'Roboto';
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.limpar-btn {
+    font-family: 'Roboto';
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 150px;
+    transition: background-color 0.3s;
+}
+
+.enviar-btn:hover {
+    background-color: darkblue;
+}
+
+.limpar-btn:hover {
+    background-color: darkred;
+}
+
